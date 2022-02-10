@@ -5,8 +5,8 @@
 // @match       https://www.nexusmods.com/skyrim/*
 // @grant       none
 // @version     1.2.1
-// @downloadURL https://github.com/lexiebean/userscripts/raw/master/SSEWarning.user.js
-// @updateURL   https://github.com/lexiebean/userscripts/raw/master/SSEWarning.user.js
+// @downloadURL https://github.com/Lexiebean/userscripts/raw/main/SSEWarning.user.js
+// @updateURL   https://github.com/Lexiebean/userscripts/raw/main/SSEWarning.user.js
 // @author      Lexiebean <lexie@lexiebean.net>
 // @description Adds a warning to Nexusmods' Skyrim page to remind me to download mods for the right fucking game.
 // ==/UserScript==
