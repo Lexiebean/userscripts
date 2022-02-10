@@ -4,11 +4,12 @@
 // @match       https://www.nexusmods.com/skyrim
 // @match       https://www.nexusmods.com/skyrim/*
 // @grant       none
-// @version     1.2.1
+// @version     1.2.2
 // @downloadURL https://github.com/Lexiebean/userscripts/raw/main/SSEWarning.user.js
 // @updateURL   https://github.com/Lexiebean/userscripts/raw/main/SSEWarning.user.js
 // @author      Lexiebean <lexie@lexiebean.net>
 // @description Adds a warning to Nexusmods' Skyrim page to remind me to download mods for the right fucking game.
+// @license     GNU GPLv3
 // ==/UserScript==
 
 //var sort_by = "date"                  //Date published
