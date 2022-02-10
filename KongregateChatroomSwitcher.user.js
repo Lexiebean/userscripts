@@ -4,11 +4,12 @@
 // @match       https://www.kongregate.com/games/*
 // @match       http://www.kongregate.com/games/*
 // @grant       none
-// @version     1.0.1
+// @version     1.0.2
 // @downloadURL https://github.com/Lexiebean/userscripts/raw/main/KongregateChatroomSwitcher.user.js
 // @updateURL   https://github.com/Lexiebean/userscripts/raw/main/KongregateChatroomSwitcher.user.js
 // @author      Lexiebean <lexie@lexiebean.net>
 // @description Adds a chatroom to all games on Kongregate and lets you switch between the remaining chat rooms.
+// @license     GNU GPLv3
 // ==/UserScript==
 
 var savedchat
