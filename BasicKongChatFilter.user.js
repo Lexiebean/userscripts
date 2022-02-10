@@ -4,8 +4,8 @@
 // @match       https://www.kongregate.com/games/*
 // @grant       none
 // @version     1.4.6
-// @downloadURL https://github.com/lexiebean/userscripts/raw/master/BasicKongChatFilter.user.js
-// @updateURL   https://github.com/lexiebean/userscripts/raw/master/BasicKongChatFilter.user.js
+// @downloadURL https://github.com/Lexiebean/userscripts/raw/main/BasicKongChatFilter.user.js
+// @updateURL   https://github.com/Lexiebean/userscripts/raw/main/BasicKongChatFilter.user.js
 // @author      Lexiebean <lexie@lexiebean.net>
 // @description Basic filter to remove messages sent by the recent chat bots.
 // @license     GNU GPLv3
