@@ -3,11 +3,12 @@
 // @namespace   Basic KongChat Filter
 // @match       https://www.kongregate.com/games/*
 // @grant       none
-// @version     1.4.5
+// @version     1.4.6
 // @downloadURL https://github.com/lexiebean/userscripts/raw/master/BasicKongChatFilter.user.js
 // @updateURL   https://github.com/lexiebean/userscripts/raw/master/BasicKongChatFilter.user.js
 // @author      Lexiebean <lexie@lexiebean.net>
 // @description Basic filter to remove messages sent by the recent chat bots.
+// @license     GNU GPLv3
 // ==/UserScript==
 
 // *********** This script will stop working as soon as the bots update their message. DM me on discord and I'll update it. @Lexie#4024 ***********
