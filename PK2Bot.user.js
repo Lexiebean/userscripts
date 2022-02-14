@@ -4,7 +4,7 @@
 // @match       *://symb1.github.io/progress_knight_2/*
 // @grant       none
 // @require     https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js
-// @version     1.0.0
+// @version     1.0.1
 // @downloadURL https://github.com/Lexiebean/userscripts/raw/main/PK2Bot.user.js
 // @updateURL   https://github.com/Lexiebean/userscripts/raw/main/PK2Bot.user.js
 // @author      Lexiebean <lexie@lexiebean.net>
@@ -111,7 +111,7 @@ function AutoRebirth() {
     var permin = evil / (duration/(1000*60))
     var perhr = evil / (duration/(1000*60*60))
 
-    if (evil < gameData.evil*.015) {
+    if (evil < gameData.evil*.025) {
       var rebirth = rebirth[0]
       if (rebirthtime != 0) { 
         console.log("Touched the eye for " + evil + " after " + msToTime(duration) + " -- Evil/hr: " + perhr + " -- Evil/min: " + permin + " -- Evil/sec: " + persec)
@@ -153,7 +153,7 @@ function init() {
 
   //create Auto-Buy checkbox
 	auto = document.getElementById("automation")
-	span = auto.getElementsByTagName("span")[1].innerHTML
+	span = document.getElementById("autoLearn").parentElement.innerHTML
 	span = span.replace("Learn","Buy")
 	span = span.replace("learn","buy")
 	br = document.createElement("br")
